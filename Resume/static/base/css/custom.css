@@ -1,0 +1,38 @@
+.std_fonts{
+
+    font-family: 'Satisfy', cursive;
+}
+html, body{
+    height: 100%;
+}
+.my{
+    color: rgb(255, 157, 122);
+}
+.container-fluid{
+    min-height: 100%;
+}
+.container{
+    max-width: 92%;
+}
+.dutton{
+    bottom: 30px;
+}
+/* service */
+.i-color{
+    color: aquamarine;
+}
+.ss-color{
+    color: #eee48e;
+}
+a.nav-link{
+    color: whitesmoke;
+}
+a.nav-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: #e7c664;
+}
+a.nav-link:active{
+    color: rgb(0, 0, 0);
+    background-color: #ffbf00;
+}
+

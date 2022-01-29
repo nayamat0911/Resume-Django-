@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block css_stlye %}
+
+    <!-- <link rel="stylesheet" href="{% static 'edu/css/all.min.css' %}"> -->
+    <!-- <link rel="stylesheet" href="{% static 'edu/css/bootstrap.css' %}">  -->
+    <!-- <link rel="stylesheet" href="{% static 'edu/css/edu.css' %}">  -->
+
+    {% endblock css_stlye %} 
+
+        {% block title %}
+            {{title}}
+        {% endblock title %}
+
+  
+    
+        
+        
+    {% block content %}
+
+    <div class="container">
+        <h1 class="text-warning m-5 border-bottom">Contact</h1>
+        <div class="row text-white mb-5">
+            <p class="mx-auto mb-5">Lorem, ipsum dolor sit amet consectetur Lorem ipsit amet consectetur adipisicing elit.  adipisicing elit. Vitae, sed!</p>
+            <div class="col-sm-9 mb-5">
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName"> Your Name</label>
+                            <input type="text" class="form-control" id="inputName" />
+                            
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail"> Your Email*</label>
+                            <input type="email" class="form-control" id="inputEmail" required />
+                                                    
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="form-group ">
+                        <label for="inputSubject"> Your Subject</label>
+                        <input type="text" class="form-control" id="inputSubject"  />
+                                                
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="inputTextarea"> Your Message*</label>
+                        <input type="text" class="form-control" id="inputTextarea" required />
+                                                
+                    </div>
+                    <div class="button text-center">
+                        <button class="btn btn-info " type="submit">Send</button>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="col-sm-3 text-center">
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x i-color"></i>
+                        <p>Foyes lake,chittagong, Bamgladesh</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone mt-4 fa-2x i-color"></i>
+                        <p>+880 1720 93 30 60</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope mt-4 fa-2x i-color"></i>
+                        <p>nayamat0911@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+ 
+    <div class="text-center mb-5">
+        <a href="#" target="_blank">
+            <i class="fab fa-facebook-f mr-3 fa-2x i-color"></i>
+        </a>
+        <a href="#" target="_blank">
+            <i class="fab fa-twitter mr-3 fa-2x i-color"></i>
+        </a>
+        <a href="#" target="_blank">
+            <i class="fab fa-instagram mr-3 fa-2x i-color"></i>
+        </a>
+        <a href="#" target="_blank">
+            <i class="fab fa-dribbble mr-3 fa-2x i-color"></i>
+        </a>
+    </div>
+
+    {% endblock content %}    
+
+    {% block js_style %}
+    <!-- <script src="{% static 'edu/js/all.min.js' %}"></script> -->
+    <!-- <script src="{% static 'edu/js/edu.js' %}"></script> -->
+ 
+    {% endblock js_style %}
+
+   

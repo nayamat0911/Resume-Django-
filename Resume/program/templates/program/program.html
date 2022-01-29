@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block css_stlye %}
+
+    <link rel="stylesheet" href="{% static 'program/css/program.css' %}">
+
+    {% endblock css_stlye %}
+
+        {% block title %}
+            {{title}}
+        {% endblock title %}
+
+  
+    
+        
+        
+    {% block content %}
+    
+    <div class="container">
+        <h1 class="text-warning m-5 border-bottom">Services</h1>
+
+        <div class="row text-white text-center mb-5">
+            <div class="col-sm-4">
+                <i class="fas fa-search fa-2x mb-3 i-color"></i>
+                <h3>SEO</h3>
+                <p class="ss-color"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-palette fa-2x mb-3 i-color"></i>
+                <h3>Graphics</h3>
+                <p class="ss-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-shopping-cart fa-2x mb-3 i-color"></i>
+                <h3>Merketing</h3>
+                <p class="ss-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            
+        </div>
+
+
+        <!--------------2nd step-------------->
+        <div class="row text-white text-center mb-5">
+            <div class="col-sm-4">
+                <i class="fas fa-code fa-2x mb-3 i-color"></i>
+                <h3>Web Development</h3>
+                <p class="ss-color"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fab fa-android fa-2x mb-3 i-color"></i>
+                <h3>Android</h3>
+                <p class="ss-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fab fa-apple fa-2x mb-3 i-color"></i>
+                <h3>iOS</h3>
+                <p class="ss-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            
+        </div>
+        <!------------------3rd step-------------->
+        <div class="row text-white text-center mb-5">
+            <div class="col-sm-4">
+                <i class="fas fa-ad fa-2x mb-3 i-color"></i>
+                <h3>Adverting</h3>
+                <p class="ss-color"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-user-edit fa-2x mb-3 i-color"></i>
+                <h3>Logo design</h3>
+                <p class="ss-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-database fa-2x mb-3 i-color"></i>
+                <h3>Data entry</h3>
+                <p class="ss-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod aut magnam consectetur optio rem sapiente nulla ut, debitis quaerat?</p>
+            </div>
+            
+        </div>
+    </div>
+    {% endblock content %}    
+
+
+
+
+    
+    {% block js_style %}
+ 
+    <script src="{% static 'program/js/program.js' %}"></script>
+
+    {% endblock js_style %} 
+
+   

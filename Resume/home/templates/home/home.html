@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block css_stlye %}
+
+   
+
+    <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+
+    {% endblock css_stlye %}
+
+        {% block title %}
+            {{title}}
+        {% endblock title %}
+
+  
+    
+        
+        
+    {% block content %}
+    <div class="home_img text-center mb-5">
+        <img src="{% static 'base/images/my.jpg' %}" alt="ProfilePic" class="img-fluid  mt-5" width="250px" height="150px">
+        <div class="mt-5 text-white container text-justify">
+            <h1 class="font-weight-bold std_fonts text-left ">Hello, </h1>
+            <div>
+                <p>
+                    My name is <b class="my std_fonts">Nayamt Ullah</b> consectetur adipisicing elit. Saepe, maiores rerum similique aperiam sunt nam et optio deleniti pariatur explicabo architecto beatae officia quaerat dolores delectus,<br> inventore, obcaecati officiis quidem? Repellat harum pariatur voluptatibus dolores aspernatur consectetur. Magnam minima ea molestias quam molestiae </p> <p></p>impedit dicta ad consectetur! Optio, velit quidem sequi aliquid ex veniam repellendus quia aperiam quas iure assumenda aut placeat molestias sed tempore. Omnis ipsum voluptatem cum velit,<br> nisi vitae saepe quisquam deleniti consequuntur doloribus! Officiis harum quos in, eveniet nisi illum obcaecati nostrum exercitationem. Maxime, sapiente? Aut neque eveniet voluptates libero sint explicabo. Magni quia aut dolores.lorem50 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,</p> <p> natus vero odio sunt dolorem rerum quaerat nesciunt! Nam culpa dolores minus optio. Ullam ratione nesciunt dignissimos nemo fugiat quae id recusandae enim sequi porro incidunt sapiente nobis atque esse, repellendus nam quasi, placeat quisquam architecto doloribus! Dignissimos ducimus vel harum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p> Quibusdam illo quaerat voluptatum iure perferendis ea esse fuga illum inventore nobis soluta animi, rerum at dolore dignissimos nihil? Libero provident cumque illum voluptatem maiores! br    Perferendis, sed optio soluta saepe minima amet.
+                </p>
+            </div>
+        </div>
+        <div class="dutton">
+            <a href="https://drive.google.com/file/d/1GbLMpAOBKtNm4xVBdNfm0cv95lKUu0cp/view?usp=sharing" class="btn btn-outline-danger">Download CV</a>
+
+            <a href="{% url 'contact_page' %}" class="btn btn-outline-warning">Hire Ne</a>
+        </div>
+       
+    </div>
+    
+
+    {% endblock content %}    
+
+    {% block js_style %}
+    <!-- <script src="{% static 'home/js/all.min.js' %}"></script> -->
+    <script src="{% static 'home/js/home.js' %}"></script>
+    {% endblock js_style %}
+
+   

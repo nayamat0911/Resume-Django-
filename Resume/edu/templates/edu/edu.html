@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block css_stlye %}
+
+    <!-- <link rel="stylesheet" href="{% static 'edu/css/all.min.css' %}"> -->
+    <!-- <link rel="stylesheet" href="{% static 'edu/css/bootstrap.css' %}">  -->
+    <link rel="stylesheet" href="{% static 'edu/css/edu.css' %}"> 
+
+    {% endblock css_stlye %} 
+
+        {% block title %}
+            {{title}}
+        {% endblock title %}
+
+  
+    
+        
+        
+    {% block content %}
+
+    <div class="container">
+        <h1 class="text-warning m-5 border-bottom">Skills</h1>
+        <div class="row text-light">
+            <div class="col-sm-5">
+                <h4 class="mt-5">HTML/CSS</h4>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%; " aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+
+            </div> 
+            <div class="col-sm-5 offset-sm-2">
+                <h4 class="mt-5">JavaScript</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+
+            </div> 
+            <div class="col-sm-5">
+                <h4 class="mt-5">React Js</h4>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%; " aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div> 
+            <div class="col-sm-5 offset-sm-2">
+                <h4 class="mt-5">Python</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%;"5aria-valuenow="95" aria-valuemin="0" aria-valuemax="95">95%</div>
+                </div>
+
+            </div> 
+            <div class="col-sm-5">
+                <h4 class="mt-5">Django</h4>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 90%; " aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div> 
+            <div class="col-sm-5 offset-sm-2">
+                <h4 class="mt-5">SQL</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%;"5aria-valuenow="70" aria-valuemin="0" aria-valuemax="95">70%</div>
+                </div>
+
+            </div> 
+        </div>
+    </div>
+ 
+
+
+    {% endblock content %}    
+
+    {% block js_style %}
+    <!-- <script src="{% static 'edu/js/all.min.js' %}"></script> -->
+    <script src="{% static 'edu/js/edu.js' %}"></script>
+ 
+    {% endblock js_style %}
+
+   
